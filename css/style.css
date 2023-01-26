@@ -854,10 +854,11 @@ display: inline;
     color: #18CFAB;
 }
 
-
-.news-link{
+.news-item{
     position: relative;
+    
 }
+
 
 .news-calendar{
     background: #203E38;
@@ -876,9 +877,10 @@ display: inline;
     padding-bottom: 6px;
 
     position: absolute;
-    left: 193px;
-    bottom: 206px;
- 
+    top: 0;
+    right: 0;
+    margin: 0;
+   
 }
 
 
