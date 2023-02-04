@@ -99,15 +99,19 @@ html {
 .menu-list{
     display: flex;
     align-items: center;
+    
     list-style-type: none;
-        
-        
-     margin-left: 305px;
+    padding-top: 10px;    
      
  }
+
     
 .menu-item{
     margin-right: 22px;
+}
+.menu-item:last-child{
+    margin-left: 5px;
+    margin-right: 0;
 }
 
 .menu-link{
@@ -120,19 +124,11 @@ html {
       
 }
 
+
 .menu-link:hover{
     color: #18CFAB;
     border-bottom: 1px solid #18CFAB;
 }
-
-.search-box{
-    display: flex;
-    align-self: center;
-         
-}
-
-
-
 
 .slogan-container{
     display: block;
@@ -915,7 +911,7 @@ display: inline;
     height: 10px;
     display: block;
     position: absolute;
-  bottom: 9px;
+    bottom: 8px;
     margin-left: 77px;
 }
 
